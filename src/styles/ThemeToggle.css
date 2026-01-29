@@ -1,0 +1,213 @@
+/* Theme Toggle Button */
+.theme-toggle-button {
+  --padding-start: 8px;
+  --padding-end: 8px;
+  min-width: 40px;
+  min-height: 40px;
+  margin: 0 8px;
+  transition: all 0.3s ease;
+}
+
+.theme-icon {
+  font-size: 24px;
+  color: #667eea;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.theme-toggle-button:hover .theme-icon {
+  transform: rotate(20deg) scale(1.1);
+  color: #764ba2;
+}
+
+.theme-toggle-button:active .theme-icon {
+  transform: rotate(180deg) scale(0.95);
+}
+
+/* Dark Mode Styles */
+:root.dark-mode {
+  --ion-background-color: #1a1a2e;
+  --ion-background-color-rgb: 26, 26, 46;
+  --ion-text-color: #e0e0e0;
+  --ion-text-color-rgb: 224, 224, 224;
+  --ion-card-background: #16213e;
+  --ion-toolbar-background: #0f3460;
+  --ion-border-color: #2d3e50;
+  --ion-placeholder-text-color: #999999;
+  
+  /* Ionic components */
+  --ion-item-background: #16213e;
+  --ion-item-border-color: #2d3e50;
+}
+
+/* Dark Mode - Signin/Signup Pages */
+:root.dark-mode .signin-content,
+:root.dark-mode .signup-content {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%) !important;
+}
+
+:root.dark-mode .signin-card,
+:root.dark-mode .signup-card {
+  background: #0f3460 !important;
+  color: #e0e0e0;
+}
+
+:root.dark-mode .form-input {
+  --background: #16213e !important;
+  --border-color: #2d3e50 !important;
+  color: #e0e0e0;
+}
+
+:root.dark-mode .form-input:focus {
+  --background: #1a1a2e !important;
+  --border-color: #667eea !important;
+}
+
+:root.dark-mode .form-label {
+  color: #b0b0b0 !important;
+}
+
+:root.dark-mode .error-text {
+  color: #ff6b6b;
+}
+
+:root.dark-mode .info-message {
+  background: #1f3a5f !important;
+  color: #b0e0ff !important;
+  border-color: #2d5a8c !important;
+}
+
+:root.dark-mode .auth-link {
+  color: #b0b0b0;
+}
+
+:root.dark-mode .auth-link .link {
+  color: #667eea;
+}
+
+/* Dark Mode - Profile Page */
+:root.dark-mode .profile-container {
+  background: #1a1a2e;
+}
+
+:root.dark-mode .profile-card {
+  background: #16213e !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+:root.dark-mode .profile-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+:root.dark-mode .detail-icon {
+  background: #0f3460 !important;
+  color: #667eea;
+}
+
+:root.dark-mode .detail-label {
+  color: #909090 !important;
+}
+
+:root.dark-mode .detail-value {
+  color: #e0e0e0 !important;
+}
+
+:root.dark-mode .profile-detail-item {
+  border-bottom-color: #2d3e50;
+}
+
+/* Dark Mode - Journey Timeline */
+:root.dark-mode .journey-card {
+  background: #16213e !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+:root.dark-mode .journey-header {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+:root.dark-mode .timeline-year {
+  color: #e0e0e0;
+}
+
+:root.dark-mode .timeline-title {
+  color: #d0d0d0;
+}
+
+:root.dark-mode .timeline-description {
+  color: #909090;
+}
+
+:root.dark-mode .timeline-line {
+  background: #2d3e50;
+}
+
+:root.dark-mode .marker-circle {
+  background: #16213e !important;
+  border-color: #667eea !important;
+}
+
+/* Dark Mode - Risk Alert Modal */
+:root.dark-mode .inline-info-section {
+  border-color: #2d3e50;
+}
+
+:root.dark-mode .inline-label {
+  color: #909090 !important;
+}
+
+:root.dark-mode .inline-value {
+  color: #e0e0e0 !important;
+}
+
+:root.dark-mode .alert-danger-card {
+  background: #1f2a3a !important;
+  border-color: #c92a2a;
+}
+
+:root.dark-mode .alert-danger-card ion-card-header {
+  border-color: #3a4a5a;
+}
+
+:root.dark-mode .risk-label {
+  color: #ff8787 !important;
+}
+
+:root.dark-mode .risk-value {
+  color: #ff5252 !important;
+}
+
+:root.dark-mode .probability-badge {
+  background: #ef4444;
+  color: white;
+}
+
+/* Smooth Transition */
+:root {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+ion-card {
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+ion-input {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode - Toolbar */
+:root.dark-mode ion-toolbar {
+  background: #0f3460 !important;
+  color: #e0e0e0;
+}
+
+:root.dark-mode ion-title {
+  color: #e0e0e0;
+}
+
+:root.dark-mode ion-button {
+  color: #e0e0e0;
+}

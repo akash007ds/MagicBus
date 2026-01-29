@@ -1,0 +1,100 @@
+/* User Profile Page Styles */
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100vh;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.profile-left-panel {
+  flex: 0 0 30%;
+  min-width: 0;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.profile-right-panel {
+  flex: 0 0 70%;
+  min-width: 0;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Tablet - 1024px and below */
+@media (max-width: 1024px) {
+  .profile-container {
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .profile-left-panel {
+    flex: 0 0 35%;
+    max-height: calc(100vh - 30px);
+  }
+
+  .profile-right-panel {
+    flex: 0 0 65%;
+    max-height: calc(100vh - 30px);
+  }
+}
+
+/* Small tablets and landscape phones - 768px and below */
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    min-height: auto;
+  }
+
+  .profile-left-panel {
+    flex: 0 0 auto;
+    max-height: none;
+    width: 100%;
+  }
+
+  .profile-right-panel {
+    flex: 0 0 auto;
+    max-height: none;
+    width: 100%;
+  }
+}
+
+/* Extra small phones - 480px and below */
+@media (max-width: 480px) {
+  .profile-container {
+    padding: 10px;
+    gap: 10px;
+  }
+}
+
+/* Scrollbar styling */
+.profile-left-panel::-webkit-scrollbar,
+.profile-right-panel::-webkit-scrollbar {
+  width: 6px;
+}
+
+.profile-left-panel::-webkit-scrollbar-track,
+.profile-right-panel::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.profile-left-panel::-webkit-scrollbar-thumb,
+.profile-right-panel::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+.profile-left-panel::-webkit-scrollbar-thumb:hover,
+.profile-right-panel::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

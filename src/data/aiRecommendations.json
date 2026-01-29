@@ -1,0 +1,208 @@
+{
+  "userRecommendations": [
+    {
+      "userId": 1,
+      "name": "Anjali Sharma",
+      "recommendations": [
+        {
+          "id": 1,
+          "recommendedTrack": "Cloud Architecture",
+          "matchScore": "96%",
+          "retentionRate": "94%",
+          "averageSalary": "$145,000"
+        },
+        {
+          "id": 2,
+          "recommendedTrack": "DevOps Engineering",
+          "matchScore": "92%",
+          "retentionRate": "90%",
+          "averageSalary": "$138,000"
+        },
+        {
+          "id": 3,
+          "recommendedTrack": "Solutions Architect",
+          "matchScore": "90%",
+          "retentionRate": "88%",
+          "averageSalary": "$150,000"
+        },
+        {
+          "id": 4,
+          "recommendedTrack": "Engineering Manager",
+          "matchScore": "88%",
+          "retentionRate": "85%",
+          "averageSalary": "$155,000"
+        }
+      ]
+    },
+    {
+      "userId": 2,
+      "name": "Priya Verma",
+      "recommendations": [
+        {
+          "id": 1,
+          "recommendedTrack": "Product Strategy",
+          "matchScore": "95%",
+          "retentionRate": "93%",
+          "averageSalary": "$160,000"
+        },
+        {
+          "id": 2,
+          "recommendedTrack": "Business Intelligence",
+          "matchScore": "91%",
+          "retentionRate": "89%",
+          "averageSalary": "$135,000"
+        },
+        {
+          "id": 3,
+          "recommendedTrack": "Data Analytics Lead",
+          "matchScore": "89%",
+          "retentionRate": "87%",
+          "averageSalary": "$128,000"
+        },
+        {
+          "id": 4,
+          "recommendedTrack": "VP Product",
+          "matchScore": "85%",
+          "retentionRate": "83%",
+          "averageSalary": "$180,000"
+        }
+      ]
+    },
+    {
+      "userId": 3,
+      "name": "Neha Singh",
+      "recommendations": [
+        {
+          "id": 1,
+          "recommendedTrack": "Machine Learning Engineer",
+          "matchScore": "97%",
+          "retentionRate": "95%",
+          "averageSalary": "$155,000"
+        },
+        {
+          "id": 2,
+          "recommendedTrack": "AI Research Scientist",
+          "matchScore": "94%",
+          "retentionRate": "92%",
+          "averageSalary": "$165,000"
+        },
+        {
+          "id": 3,
+          "recommendedTrack": "Data Science Manager",
+          "matchScore": "90%",
+          "retentionRate": "88%",
+          "averageSalary": "$148,000"
+        },
+        {
+          "id": 4,
+          "recommendedTrack": "Analytics Consultant",
+          "matchScore": "87%",
+          "retentionRate": "85%",
+          "averageSalary": "$130,000"
+        }
+      ]
+    },
+    {
+      "userId": 4,
+      "name": "Isha Patel",
+      "recommendations": [
+        {
+          "id": 1,
+          "recommendedTrack": "Design Director",
+          "matchScore": "93%",
+          "retentionRate": "91%",
+          "averageSalary": "$152,000"
+        },
+        {
+          "id": 2,
+          "recommendedTrack": "CAD Systems Specialist",
+          "matchScore": "91%",
+          "retentionRate": "89%",
+          "averageSalary": "$128,000"
+        },
+        {
+          "id": 3,
+          "recommendedTrack": "Project Management",
+          "matchScore": "88%",
+          "retentionRate": "86%",
+          "averageSalary": "$125,000"
+        },
+        {
+          "id": 4,
+          "recommendedTrack": "Technical Lead",
+          "matchScore": "85%",
+          "retentionRate": "83%",
+          "averageSalary": "$140,000"
+        }
+      ]
+    },
+    {
+      "userId": 5,
+      "name": "Riya Gupta",
+      "recommendations": [
+        {
+          "id": 1,
+          "recommendedTrack": "Management Consultant",
+          "matchScore": "96%",
+          "retentionRate": "94%",
+          "averageSalary": "$170,000"
+        },
+        {
+          "id": 2,
+          "recommendedTrack": "Strategy Analyst",
+          "matchScore": "93%",
+          "retentionRate": "91%",
+          "averageSalary": "$145,000"
+        },
+        {
+          "id": 3,
+          "recommendedTrack": "Operations Manager",
+          "matchScore": "90%",
+          "retentionRate": "88%",
+          "averageSalary": "$138,000"
+        },
+        {
+          "id": 4,
+          "recommendedTrack": "Principal Consultant",
+          "matchScore": "87%",
+          "retentionRate": "85%",
+          "averageSalary": "$185,000"
+        }
+      ]
+    },
+    {
+      "userId": 6,
+      "name": "Divya Nair",
+      "recommendations": [
+        {
+          "id": 1,
+          "recommendedTrack": "Risk Management Officer",
+          "matchScore": "96%",
+          "retentionRate": "94%",
+          "averageSalary": "$165,000"
+        },
+        {
+          "id": 2,
+          "recommendedTrack": "Investment Manager",
+          "matchScore": "94%",
+          "retentionRate": "92%",
+          "averageSalary": "$175,000"
+        },
+        {
+          "id": 3,
+          "recommendedTrack": "Financial Advisor",
+          "matchScore": "91%",
+          "retentionRate": "89%",
+          "averageSalary": "$152,000"
+        },
+        {
+          "id": 4,
+          "recommendedTrack": "Chief Investment Officer",
+          "matchScore": "88%",
+          "retentionRate": "86%",
+          "averageSalary": "$200,000"
+        }
+      ]
+    }
+  ]
+}

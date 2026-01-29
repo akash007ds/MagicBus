@@ -1,0 +1,212 @@
+/* Journey Timeline Styles */
+.journey-timeline-container {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+}
+
+.journey-card {
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.journey-header {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  padding: 25px 20px;
+}
+
+.journey-header ion-card-title {
+  color: white !important;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.journey-subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  margin: 0;
+}
+
+.journey-content {
+  padding: 30px 20px;
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline-item {
+  display: flex;
+  padding-top: 15px;
+  position: relative;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  position: relative;
+}
+
+.marker-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: white;
+  border: 3px solid #f5576c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  font-size: 24px;
+}
+
+.timeline-item.timeline-completed .marker-circle {
+  background: #10b981;
+  border-color: #059669;
+}
+
+.timeline-item.timeline-current .marker-circle {
+  background: #f5576c;
+  border-color: #e63946;
+  box-shadow: 0 0 0 8px rgba(245, 87, 108, 0.1);
+}
+
+.timeline-item.timeline-ongoing .marker-circle {
+  background: #f59e0b;
+  border-color: #d97706;
+}
+
+.marker-icon {
+  color: inherit;
+}
+
+.marker-icon.completed {
+  color: white;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  width: 3px;
+  height: calc(100% + 30px);
+  background: #e5e7eb;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.timeline-item:last-child .timeline-line {
+  display: none;
+}
+
+.timeline-content {
+  flex: 1;
+  padding-top: 5px;
+}
+
+.timeline-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.timeline-year {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 5px;
+}
+
+.timeline-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 8px;
+}
+
+.timeline-description {
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.status-label {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-label.current {
+  background: rgba(245, 87, 108, 0.1);
+  color: #f5576c;
+}
+
+.status-label.ongoing {
+  background: rgba(245, 158, 11, 0.1);
+  color: #f59e0b;
+}
+
+/* Alert Button Styles */
+.alert-button {
+  --padding-start: 8px;
+  --padding-end: 8px;
+  min-width: 32px;
+  min-height: 32px;
+  margin: 0;
+}
+
+.alert-icon-button {
+  font-size: 24px;
+  color: #ef4444;
+  transition: all 0.3s ease;
+}
+
+.alert-button:hover .alert-icon-button {
+  color: #dc2626;
+  transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .journey-header ion-card-title {
+    font-size: 20px;
+  }
+
+  .journey-content {
+    padding: 20px 15px;
+  }
+
+  .timeline-item {
+    margin-bottom: 25px;
+  }
+
+  .marker-circle {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .timeline-year {
+    font-size: 16px;
+  }
+
+  .timeline-title {
+    font-size: 14px;
+  }
+}

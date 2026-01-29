@@ -1,0 +1,249 @@
+.recommendations-container {
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.recommendations-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recommendations-table thead {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.recommendations-table thead th {
+  padding: 16px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.recommendations-table tbody tr {
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  background-color: #ffffff;
+}
+
+.recommendations-table tbody tr:hover {
+  background-color: #f0f4ff;
+  transform: scale(1.01);
+  box-shadow: inset 0 0 8px rgba(102, 126, 234, 0.1);
+}
+
+.recommendations-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.recommendations-table td {
+  padding: 14px 16px;
+  font-size: 14px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.track-cell {
+  font-weight: 500;
+  color: #2c3e50;
+  max-width: 200px;
+  transition: color 0.3s ease;
+}
+
+.score-badge,
+.retention-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 13px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.score-badge {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  min-width: 70px;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.2);
+}
+
+.score-badge:hover {
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.retention-badge {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  min-width: 70px;
+  box-shadow: 0 2px 8px rgba(245, 87, 108, 0.2);
+}
+
+.retention-badge:hover {
+  box-shadow: 0 4px 12px rgba(245, 87, 108, 0.4);
+}
+
+.salary-cell {
+  font-weight: 600;
+  color: #27ae60;
+  transition: color 0.3s ease;
+}
+
+/* Light Mode - Explicit Styles */
+.recommendations-container {
+  background-color: #ffffff;
+}
+
+.recommendations-table {
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.recommendations-table tbody tr {
+  background-color: #ffffff;
+  border-bottom-color: #e0e0e0;
+}
+
+.recommendations-table tbody tr:hover {
+  background-color: #f0f4ff;
+  box-shadow: inset 0 0 8px rgba(102, 126, 234, 0.1);
+}
+
+.recommendations-table td {
+  color: #333333;
+}
+
+.track-cell {
+  color: #2c3e50;
+}
+
+.salary-cell {
+  color: #27ae60;
+}
+
+/* Dark Mode Styles */
+:global(.dark-mode) .recommendations-container {
+  background-color: #1a1a2e;
+}
+
+:global(.dark-mode) .recommendations-table {
+  background-color: #0f1419;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+:global(.dark-mode) .recommendations-table thead {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff;
+}
+
+:global(.dark-mode) .recommendations-table thead th {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+:global(.dark-mode) .recommendations-table tbody tr {
+  background-color: #16213e;
+  border-bottom-color: #2a3f5f;
+}
+
+:global(.dark-mode) .recommendations-table tbody tr:hover {
+  background-color: #1f2d47;
+  box-shadow: inset 0 0 8px rgba(102, 126, 234, 0.2);
+}
+
+:global(.dark-mode) .recommendations-table td {
+  color: #e0e0e0;
+}
+
+:global(.dark-mode) .track-cell {
+  color: #f0f0f0;
+}
+
+:global(.dark-mode) .salary-cell {
+  color: #4ade80;
+}
+
+:global(.dark-mode) .score-badge {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+}
+
+:global(.dark-mode) .score-badge:hover {
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.5);
+}
+
+:global(.dark-mode) .retention-badge {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(245, 87, 108, 0.3);
+}
+
+:global(.dark-mode) .retention-badge:hover {
+  box-shadow: 0 4px 12px rgba(245, 87, 108, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .recommendations-container {
+    padding: 15px;
+  }
+
+  .recommendations-table {
+    font-size: 12px;
+  }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .recommendations-container {
+    padding: 15px;
+  }
+
+  .recommendations-table {
+    font-size: 12px;
+  }
+
+  .recommendations-table th,
+  .recommendations-table td {
+    padding: 10px 8px;
+  }
+
+  .score-badge,
+  .retention-badge {
+    padding: 5px 10px;
+    font-size: 12px;
+    min-width: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .recommendations-table {
+    font-size: 11px;
+  }
+
+  .recommendations-table th,
+  .recommendations-table td {
+    padding: 8px 6px;
+  }
+
+  .track-cell {
+    max-width: 120px;
+    font-size: 12px;
+  }
+
+  .score-badge,
+  .retention-badge {
+    padding: 4px 8px;
+    font-size: 11px;
+    min-width: 55px;
+  }
+}

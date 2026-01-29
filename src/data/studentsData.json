@@ -1,0 +1,136 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Anjali Sharma",
+      "profilePic": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
+      "age": 19,
+      "location": "Dharavi, Mumbai",
+      "status": "Active",
+      "attendance": 95,
+      "familyIncome": "<7.5 LPA",
+      "journeyTimeline": [
+        {
+          "year": 2024,
+          "title": "Team Lead",
+          "description": "Leading a team of 5 developers",
+          "status": "current",
+          "hasRiskAlert": {
+            "riskReason": "High workload may impact project timeline",
+            "probability": "35%"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Aman Verma",
+      "profilePic": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+      "age": 20,
+      "location": "South Delhi, Delhi",
+      "status": "Active",
+      "attendance": 92,
+      "familyIncome": "7.5-15 LPA",
+      "journeyTimeline": [
+        {
+          "year": 2024,
+          "title": "Senior Product Manager",
+          "description": "Managing product roadmap for 3 major products",
+          "status": "current",
+          "hasRiskAlert": {
+            "riskReason": "Need to upskill in data analytics for better insights",
+            "probability": "42%"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Neha Singh",
+      "profilePic": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
+      "age": 19,
+      "location": "Whitefield, Bangalore",
+      "status": "Active",
+      "attendance": 88,
+      "familyIncome": "15-25 LPA",
+      "journeyTimeline": [
+        {
+          "year": 2024,
+          "title": "Data Science Role",
+          "description": "Transitioned to Data Science with ML focus",
+          "status": "current",
+          "hasRiskAlert": {
+            "riskReason": "Need advanced ML techniques for complex models",
+            "probability": "48%"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Ishan Patel",
+      "profilePic": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
+      "age": 20,
+      "location": "Ahmedabad, Gujarat",
+      "status": "Active",
+      "attendance": 90,
+      "familyIncome": "7.5-15 LPA",
+      "journeyTimeline": [
+        {
+          "year": 2024,
+          "title": "Project Engineer",
+          "description": "Leading design projects with cross-functional teams",
+          "status": "current",
+          "hasRiskAlert": {
+            "riskReason": "Skills gap in latest design simulation tools",
+            "probability": "38%"
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Riya Gupta",
+      "profilePic": "https://i.pravatar.cc/400?img=5&s=400",
+      "age": 21,
+      "location": "Pune, Maharashtra",
+      "status": "Active",
+      "attendance": 94,
+      "familyIncome": "<7.5 LPA",
+      "journeyTimeline": [
+        {
+          "year": 2024,
+          "title": "Management Consultant",
+          "description": "Consulting for Fortune 500 companies",
+          "status": "current",
+          "hasRiskAlert": {
+            "riskReason": "Need leadership skills for management track",
+            "probability": "45%"
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Divya Nair",
+      "profilePic": "https://i.pravatar.cc/400?img=9&s=400",
+      "age": 19,
+      "location": "Kochi, Kerala",
+      "status": "Active",
+      "attendance": 96,
+      "familyIncome": "15-25 LPA",
+      "journeyTimeline": [
+        {
+          "year": 2024,
+          "title": "Portfolio Manager",
+          "description": "Managing portfolio worth $500M+ for elite clients",
+          "status": "current",
+          "hasRiskAlert": {
+            "riskReason": "Market volatility requires advanced risk management skills",
+            "probability": "52%"
+          }
+        }
+      ]
+    }
+  ]
+}

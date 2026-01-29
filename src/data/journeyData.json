@@ -1,0 +1,292 @@
+{
+  "journeys": [
+    {
+      "userId": 1,
+      "name": "Anjali Sharma",
+      "journeyTimeline": [
+        {
+          "year": 2016,
+          "title": "High School Graduation",
+          "description": "Completed secondary education with distinction",
+          "status": "completed"
+        },
+        {
+          "year": 2020,
+          "title": "Bachelor's Degree",
+          "description": "Graduated from University with B.S. in Computer Science",
+          "status": "completed"
+        },
+        {
+          "year": 2021,
+          "title": "First Job",
+          "description": "Started as Junior Developer at Tech Company",
+          "status": "completed"
+        },
+        {
+          "year": 2023,
+          "title": "Senior Developer",
+          "description": "Promoted to Senior Developer position",
+          "status": "completed"
+        },
+        {
+          "year": 2024,
+          "title": "Team Lead",
+          "description": "Leading a team of 5 developers",
+          "status": "current",
+          "hasRiskAlert": {
+            "beneficiary": "Anjali Sharma",
+            "currentEnrollment": "Professional Development Program",
+            "riskReason": "High workload may impact project timeline",
+            "probability": "35%"
+          }
+        },
+        {
+          "year": 2025,
+          "title": "Certification Completion",
+          "description": "Target: Complete AWS Solutions Architect Certification",
+          "status": "upcoming"
+        }
+      ]
+    },
+    {
+      "userId": 2,
+      "name": "Priya Verma",
+      "journeyTimeline": [
+        {
+          "year": 2015,
+          "title": "High School Graduation",
+          "description": "Completed secondary education with 95% marks",
+          "status": "completed"
+        },
+        {
+          "year": 2019,
+          "title": "Bachelor's Degree",
+          "description": "Graduated with B.S. in Electronics and Communication Engineering",
+          "status": "completed"
+        },
+        {
+          "year": 2020,
+          "title": "Software Engineer",
+          "description": "Started as Software Engineer at MNC",
+          "status": "completed"
+        },
+        {
+          "year": 2022,
+          "title": "Product Manager Track",
+          "description": "Transitioned to Product Management role",
+          "status": "completed"
+        },
+        {
+          "year": 2024,
+          "title": "Senior Product Manager",
+          "description": "Managing product roadmap for 3 major products",
+          "status": "current",
+          "hasRiskAlert": {
+            "beneficiary": "Priya Verma",
+            "currentEnrollment": "Business Analytics Bootcamp",
+            "riskReason": "Need to upskill in data analytics for better insights",
+            "probability": "42%"
+          }
+        },
+        {
+          "year": 2026,
+          "title": "Strategy & Growth",
+          "description": "Target: Lead growth strategy initiatives",
+          "status": "upcoming"
+        }
+      ]
+    },
+    {
+      "userId": 3,
+      "name": "Neha Singh",
+      "journeyTimeline": [
+        {
+          "year": 2016,
+          "title": "High School Graduation",
+          "description": "Completed secondary education with focus on science",
+          "status": "completed"
+        },
+        {
+          "year": 2020,
+          "title": "Bachelor's Degree",
+          "description": "Graduated with B.S. in Information Technology",
+          "status": "completed"
+        },
+        {
+          "year": 2021,
+          "title": "Data Analyst",
+          "description": "Started as Data Analyst at Analytics firm",
+          "status": "completed"
+        },
+        {
+          "year": 2023,
+          "title": "Senior Data Analyst",
+          "description": "Promoted to Senior Data Analyst",
+          "status": "completed"
+        },
+        {
+          "year": 2024,
+          "title": "Data Science Role",
+          "description": "Transitioned to Data Science with ML focus",
+          "status": "current",
+          "hasRiskAlert": {
+            "beneficiary": "Neha Singh",
+            "currentEnrollment": "Machine Learning Specialization",
+            "riskReason": "Need advanced ML techniques for complex models",
+            "probability": "48%"
+          }
+        },
+        {
+          "year": 2025,
+          "title": "AI/ML Lead",
+          "description": "Target: Lead AI/ML initiatives in company",
+          "status": "upcoming"
+        }
+      ]
+    },
+    {
+      "userId": 4,
+      "name": "Isha Patel",
+      "journeyTimeline": [
+        {
+          "year": 2015,
+          "title": "High School Graduation",
+          "description": "Completed secondary education with merit",
+          "status": "completed"
+        },
+        {
+          "year": 2019,
+          "title": "Bachelor's Degree",
+          "description": "Graduated with B.S. in Mechanical Engineering",
+          "status": "completed"
+        },
+        {
+          "year": 2020,
+          "title": "Design Engineer",
+          "description": "Started as Design Engineer at automotive company",
+          "status": "completed"
+        },
+        {
+          "year": 2022,
+          "title": "CAD Specialist",
+          "description": "Became CAD specialist and mentor",
+          "status": "completed"
+        },
+        {
+          "year": 2024,
+          "title": "Project Engineer",
+          "description": "Leading design projects with cross-functional teams",
+          "status": "current",
+          "hasRiskAlert": {
+            "beneficiary": "Isha Patel",
+            "currentEnrollment": "Advanced CAD and Simulation Workshop",
+            "riskReason": "Skills gap in latest design simulation tools",
+            "probability": "38%"
+          }
+        },
+        {
+          "year": 2025,
+          "title": "Design Director",
+          "description": "Target: Become Design Director",
+          "status": "upcoming"
+        }
+      ]
+    },
+    {
+      "userId": 5,
+      "name": "Riya Gupta",
+      "journeyTimeline": [
+        {
+          "year": 2014,
+          "title": "High School Graduation",
+          "description": "Completed secondary education with distinction",
+          "status": "completed"
+        },
+        {
+          "year": 2018,
+          "title": "Bachelor's Degree",
+          "description": "Graduated with B.S. in Business Administration",
+          "status": "completed"
+        },
+        {
+          "year": 2019,
+          "title": "Business Analyst",
+          "description": "Started as Business Analyst in consulting firm",
+          "status": "completed"
+        },
+        {
+          "year": 2021,
+          "title": "Senior Analyst",
+          "description": "Promoted to Senior Business Analyst",
+          "status": "completed"
+        },
+        {
+          "year": 2024,
+          "title": "Management Consultant",
+          "description": "Consulting for Fortune 500 companies",
+          "status": "current",
+          "hasRiskAlert": {
+            "beneficiary": "Riya Gupta",
+            "currentEnrollment": "Leadership Development Program",
+            "riskReason": "Need leadership skills for management track",
+            "probability": "45%"
+          }
+        },
+        {
+          "year": 2026,
+          "title": "Associate Principal",
+          "description": "Target: Achieve Associate Principal position",
+          "status": "upcoming"
+        }
+      ]
+    },
+    {
+      "userId": 6,
+      "name": "Divya Nair",
+      "journeyTimeline": [
+        {
+          "year": 2016,
+          "title": "High School Graduation",
+          "description": "Completed secondary education with excellence",
+          "status": "completed"
+        },
+        {
+          "year": 2020,
+          "title": "Bachelor's Degree",
+          "description": "Graduated with B.S. in Finance and Economics",
+          "status": "completed"
+        },
+        {
+          "year": 2021,
+          "title": "Financial Analyst",
+          "description": "Started as Financial Analyst at investment bank",
+          "status": "completed"
+        },
+        {
+          "year": 2023,
+          "title": "Investment Manager",
+          "description": "Promoted to Investment Manager",
+          "status": "completed"
+        },
+        {
+          "year": 2024,
+          "title": "Portfolio Manager",
+          "description": "Managing portfolio worth $500M+ for elite clients",
+          "status": "current",
+          "hasRiskAlert": {
+            "beneficiary": "Divya Nair",
+            "currentEnrollment": "Risk Management Certification Program",
+            "riskReason": "Market volatility requires advanced risk management skills",
+            "probability": "52%"
+          }
+        },
+        {
+          "year": 2026,
+          "title": "Chief Investment Officer",
+          "description": "Target: Become CIO in next 2 years",
+          "status": "upcoming"
+        }
+      ]
+    }
+  ]
+}
